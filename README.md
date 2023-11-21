@@ -20,4 +20,6 @@ The Atlas News App is an application developed using Flutter and Firebase. It pr
       - and article body
     - redirects user when user tap on the news card
 
+## Screen shot
+![Screenshot 2023-11-20 at 10 43 51 PM](https://github.com/xxxuduo2022/atlas_news_app/assets/89648748/93ad4629-5f40-438f-b96c-7eb1ad98e78a)
 
