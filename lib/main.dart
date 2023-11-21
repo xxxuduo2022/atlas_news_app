@@ -8,7 +8,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  // Create Firestore instance
+  // Create Firestore instance, uncomment it to add data records to database.
   // final FirebaseFirestore firestore = FirebaseFirestore.instance;
   // await FirebaseNewsUploader(
   //     firestore: firestore,

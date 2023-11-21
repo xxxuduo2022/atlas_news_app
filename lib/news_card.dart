@@ -79,6 +79,7 @@ class NewsCard extends StatelessWidget {
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
+          // Notify users which urls are inaccessible.
           content: Text('URL: $url not available or cannot be launched'),
           action: SnackBarAction(
             label: 'OK',
