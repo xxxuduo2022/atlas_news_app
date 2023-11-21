@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791463957566",
+    "project_id": "atlas-news-app",
+    "storage_bucket": "atlas-news-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791463957566:android:4e87f33f2158309c2e6d6f",
+        "android_client_info": {
+          "package_name": "com.example.atlas_news_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgvLAU0qmUP5fQScYHuGhnS8izN2Rygt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
