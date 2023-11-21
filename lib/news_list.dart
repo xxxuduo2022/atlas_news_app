@@ -74,7 +74,21 @@ class _NewsListState extends State<NewsList> {
 
       setState(() {
         _isLoading = false;
-        _articles.addAll(querySnapshot.docs);
+
+        if (querySnapshot.docs.isNotEmpty) {
+          _articles.addAll(querySnapshot.docs);
+        } else {
+          // Notify the user that there are no more articles
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: const Text('No more articles available.'),
+              action: SnackBarAction(
+                label: 'OK',
+                onPressed: () {},
+              ),
+            ),
+          );
+        }
       });
     }
   }
